@@ -1,5 +1,5 @@
 :root{
-    --main-cplor:#d92123;
+    --main-color:#d92123;
     --primary-text-color:#fff;
     --secondary-text-color:#191919;
     --secondary-color:#868686;
@@ -43,7 +43,7 @@ img{
 }
 
 #brand{
-    background-color: var(--main-cplor);
+    background-color: var(--main-color);
     padding: 1rem;
 }
 
@@ -57,4 +57,13 @@ img{
     color: var(--primary-text-color);
     font-weight: bold;
     padding: 1rem;
+}
+
+
+.square{
+    display: block;
+    width: 150px;
+    height: 150px;
+    background-color: var(--main-color);
+
 }
